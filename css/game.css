@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	width: 100%;
+	width: 100%;
+}
+
+body{
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none
+	user-select: none;
+}
+
+.points-outer{
+	text-align: center;
+	float: left;
+	width: 50%;
+}
+
+.clock-outer{
+	text-align: center;
+	float: left;
+	width: 40%;
+}
+
+.menu-outer{
+	text-align: center;
+	float: left;
+	width: 10%;
+	cursor: pointer;
+}
+
+.menu{
+	cursor:pointer;
+}
+
+.divDesign{
+	width: 100%;
+	height: calc(100% - 20px);
+	background-color: red;
+	margin: 0;
+	position: absolute;
+}
+
+.menuDiv{
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	top: 25%;
+	left: 25%;
+	background-color: rgba(255,255,255,0.7);
+	text-align: center;
+}
+
+.menuButtons{
+	width: 15vw;
+	height: 3em;
+}
+
+.helpDiv{
+	margin:auto;
+	position:absolute;
+	width:50%;
+	height:20%;
+	left:25%;
+	background-color:rgba(255,255,255,0.7);
+	text-align:center;
+	display:none;
+}
+
+.pointer{
+	border-radius: 100px;
+	background-color: blue;
+}
+
+
+
+
+.clear{
+	clear: both;
+}

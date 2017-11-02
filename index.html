@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		
+		<title>Game</title>
+		
+		<script src="./js/jquery.min.js"></script>
+		<script src="./js/game.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="./css/game.css">
+	</head>
+	<body>
+		<div class="points-outer">
+			<label class="points">0</label> / <label class="highscore">0</label>
+		</div>
+		<div class="clock-outer">
+			<label class="clock">10</label>
+		</div>
+		<div class="menu-outer">
+			<label class="menu">Menü</label>
+		</div>
+		<div class="clear"></div>
+		<div class="divDesign" id="divOne"></div>
+		<div class="menuDiv">
+			<h1>Menü</h1>
+			<button class="menuButtons" onclick="initGame();">Start</button>
+			<br/>
+			<br/>
+			<button class="menuButtons" onclick="removeRound();">Stop</button>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<button class="menuButtons" onclick="showHelp();">Help</button>
+			<br/>
+			<br/>
+			<div class="helpDiv inv">
+				<label>
+					You just have to press enter, to start the game. Then you have to click on as many blue points as you can in 10 seconds. Every blue point adds you a point and 0.5 seconds.
+				</label>
+			</div>
+		</div>
+	</body>
+</html>
